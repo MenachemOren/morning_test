@@ -1,0 +1,7 @@
+Feature: Buyme Registration
+
+
+  Scenario: edit profile
+    Given there is a user profile
+    When i edit the profile
+    Then the user profile will change
